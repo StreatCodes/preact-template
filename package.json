@@ -1,0 +1,20 @@
+{
+  "name": "preact-starter",
+  "version": "0.0.1",
+  "description": "Preact webpack template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config webpack-dev.config.js --watch",
+    "prod": "webpack --config webpack-prod.config.js --progress --hide-modules"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "preact": "^8.2.7",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
